@@ -7,7 +7,7 @@ public class p1
 	    System.out.print("Enter a Palindrome Number: ");
 		int n=sc.nextInt();
 		int t=n;
-		int r,s=0; //r is remainder
+		int r,s=0; //r is remainder and s is sum
 		while(n>0)
 		{
 			r=n%10;
